@@ -1,0 +1,7 @@
+acme_api_demos:
+    type: rest
+    resource: AppBundle\Controller\PostController
+
+NelmioApiDocBundle:
+    resource: "@NelmioApiDocBundle/Resources/config/routing.yml"
+    prefix:   /api/doc
